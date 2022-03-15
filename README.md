@@ -26,3 +26,7 @@ nest g controller tasks --no-spec
 ```bash
 nest g service tasks --no-spec
 ````
+
+```bash
+npm install class-validator class-transformer
+````
