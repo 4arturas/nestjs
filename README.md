@@ -72,3 +72,11 @@ nest g controller auth --no-spec
 npm install bcrypt
 ````
 
+```bash
+npm install @nestjs/jwt @nestjs/passport passport passport-jwt
+````
+
+```bash
+npm install @types/passport-jwt
+````
+
