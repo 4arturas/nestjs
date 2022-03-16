@@ -55,3 +55,20 @@ docker container rm postgres-nest
 npm add typeorm @nestjs/typeorm pg
 ````
 
+# Auth 1
+```bash
+nest g module auth
+````
+
+```bash
+nest g service auth --no-spec
+````
+
+```bash
+nest g controller auth --no-spec
+````
+
+```bash
+npm install bcrypt
+````
+
