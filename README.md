@@ -156,3 +156,9 @@ heroku config:set DB_DATABASE=d8vnrsfvav8gg2
 heroku config:set JWT_SECRET=j4G5XaupzjxKcP2WdU9xthRuq6WucKz8qZwjFc27AZAzFGmA255FhPsLaEjCDfDK
 ````
 
+## Deploy to heroku
+```bash
+git add .
+git commit -m "Going live"
+git push -f heroku HEAD:master
+````
