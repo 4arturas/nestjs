@@ -108,4 +108,51 @@ npm install -D @types/hapi__joi
 
 https://passwordsgenerator.net/
 
+# Heroku
+
+## Install
+```bash
+sudo snap install --classic heroku
+````
+
+## Check heroku version
+```bash
+heroku -v
+````
+
+## Login into heroku
+```bash
+heroku login
+````
+
+## Install postgres
+```bash
+heroku addons:create heroku-postgresql:hobby-dev -a task-manager-artu
+````
+
+## Setup heroku application
+```bash
+heroku git:remote -a task-manager-artu
+````
+
+```bash
+heroku config:set NPM_CONFIG_PRODUCTION=false
+````
+
+```bash
+heroku config:set NODE_ENV=production
+````
+
+```bash
+heroku config:set STAGE=prod
+````
+
+```bash
+heroku config:set DB_HOST=ec2-52-209-185-5.eu-west-1.compute.amazonaws.com
+heroku config:set DB_PORT=5432
+heroku config:set DB_USERNAME=akinikwhoqijeh
+heroku config:set DB_PASSWORD=de72b2b8d56994cb530e944f1a4a9ee5461dd6818d56544ac0a65eb122663c2b
+heroku config:set DB_DATABASE=d8vnrsfvav8gg2
+heroku config:set JWT_SECRET=j4G5XaupzjxKcP2WdU9xthRuq6WucKz8qZwjFc27AZAzFGmA255FhPsLaEjCDfDK
+````
 
