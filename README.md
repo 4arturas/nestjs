@@ -80,3 +80,32 @@ npm install @nestjs/jwt @nestjs/passport passport passport-jwt
 npm install @types/passport-jwt
 ````
 
+# Config
+
+
+```bash
+MY_VARIABLE=someVariable SOMETHING=else npm run start:dev
+console.log(process.env.MY_VARIABLE);
+console.log(process.env.SOMETHING);
+````
+
+````
+console.log(process.env.MY_VARIABLE);
+console.log(process.env.SOMETHING);
+````
+
+```bash
+npm install @nestjs/config
+````
+
+```bash
+npm install @hapi/joi
+````
+
+```bash
+npm install -D @types/hapi__joi
+````
+
+https://passwordsgenerator.net/
+
+
