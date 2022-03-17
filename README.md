@@ -162,3 +162,6 @@ git add .
 git commit -m "Going live"
 git push -f heroku HEAD:master
 ````
+```bash
+heroku logs --tail
+````
